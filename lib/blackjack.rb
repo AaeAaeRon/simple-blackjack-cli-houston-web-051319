@@ -1,18 +1,19 @@
 def welcome
-  # code #welcome here
+  puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
-  # code #deal_card here
+ dealt_card = rand(1..11)
 end
 
-def display_card_total
-  # code #display_card_total here
+def display_card_total(dealt_card)
+  puts "Your cards add up to #{dealt_card}"
 end
 
 def prompt_user
-  # code #prompt_user here
-end
+  puts "Type 'h' to hit or 's' to stay"
+  answer = gets
+
 
 def get_user_input
   # code #get_user_input here
